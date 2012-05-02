@@ -46,7 +46,7 @@
             android:icon="@drawable/ic_launcher_smsmms"
             android:taskAffinity="android.task.mms"
             android:allowTaskReparenting="true"
-	    android:process="system">
+	    android:process="com.android.systemui">
 
         <service android:name=".transaction.TransactionService"
                  android:exported="true" />
